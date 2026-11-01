@@ -13,7 +13,6 @@
 6. Menerapkan JavaScript dalam pembuatan aplikasi sederhana.
 
 ---
-![Hasil Latihan 1](https://github.com/mzabbar573-ui/Lab5Web/blob/main/ScreenShoot%20lab5/Screenshot%202026-10-23%20134529.png)
 
 # E. Langkah Kerja Praktikum
 
