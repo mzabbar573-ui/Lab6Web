@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eksperimen Mandiri JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Eksperimen Mandiri</h1>
+      <p>Praktikum JavaScript DOM dan Event Handling</p>
+
+      <section>
+        <h2>1. To-Do List</h2>
+        <p>Klik tombol hapus untuk menghapus tugas.</p>
+
+        <ul id="daftarTugas">
+          <li>
+            <span>Mengerjakan tugas JavaScript</span>
+            <button class="hapus">Hapus</button>
+          </li>
+          <li>
+            <span>Membaca materi DOM</span>
+            <button class="hapus">Hapus</button>
+          </li>
+          <li>
+            <span>Belajar HTML dan CSS</span>
+            <button class="hapus">Hapus</button>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>2. Validasi Nama</h2>
+        <label for="nama">Masukkan Nama:</label>
+        <input type="text" id="nama" placeholder="Minimal 3 karakter" />
+        <button id="cekNama">Periksa Nama</button>
+        <p id="hasilNama"></p>
+      </section>
+
+      <section>
+        <h2>3. Pilihan Sesi Workshop</h2>
+        <label for="sesi">Pilih Sesi:</label>
+        <select id="sesi">
+          <option value="">-- Pilih Sesi --</option>
+          <option value="Pagi">Sesi Pagi</option>
+          <option value="Siang">Sesi Siang</option>
+          <option value="Malam">Sesi Malam</option>
+        </select>
+        <p id="hasilSesi">Sesi yang dipilih: Belum ada</p>
+      </section>
+
+      <section>
+        <h2>4. Tampilkan dan Sembunyikan Teks</h2>
+        <p id="teksRahasia">
+          Ini adalah teks yang dapat ditampilkan dan disembunyikan.
+        </p>
+        <button id="tombolTeks">Sembunyikan Teks</button>
+      </section>
+    </div>
+  </body>
+</html>
